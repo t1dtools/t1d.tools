@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css && cp index.html ./dist/index.html"
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css && cp ./src/index.html ./dist/index.html"
   },
   "devDependencies": {
     "prettier": "^2.8.1",
