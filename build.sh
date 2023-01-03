@@ -1,6 +1,7 @@
 #!/bin/bash
 
 git pull --recurse-submodules --ff-only
+git submodule update --init --recursive
 
 # Build wrapped
 cd wrapped
