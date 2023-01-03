@@ -11,5 +11,5 @@ cd ..
 npm run build
 
 # Copy wrapped to web
-mkdir -p dist/wrapped
-cp -r wrapped/out/* dist/wrapped/
+mkdir -p ./dist/wrapped
+cp -r ./wrapped/out/* ./dist/wrapped/
