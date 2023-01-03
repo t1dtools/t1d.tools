@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git pull --recurse-submodules
+git pull --recurse-submodules --ff-only
 
 # Build wrapped
 cd wrapped
