@@ -1,7 +1,6 @@
 #!/bin/bash
 
-git pull --recurse-submodules --ff-only
-git submodule update --init --recursive
+git clone git@github.com:t1dtools/wrapped.git wrapped
 
 # Build wrapped
 cd wrapped
