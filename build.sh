@@ -7,14 +7,15 @@ git clone git@github.com:t1dtools/dash-basal.git dash-basal
 cd wrapped
 npm install
 npm run build
+cd ..
 
 # Build dash-basal
 cd dash-basal
 npm install
 npm run build
+cd ..
 
 # Build web
-cd ..
 npm install
 npm run build
 
